@@ -70,6 +70,7 @@ else
 {
     $("body").css("background-color","red");
     var audio = new Audio('sounds/wrong.mp3');
+    audio.play();
     $("h1").text("Game Over, Press any key to continue");
     startOver();
 }
